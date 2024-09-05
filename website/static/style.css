@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.align-image {
+    width: 50px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+#animated-bg {
+    -webkit-animation: colorchange 20s infinite;
+    animation: colorchange 20s infinite;
+}
+  @-webkit-keyframes colorchange {
+    0% {
+      background: #ebe9e9;
+    }
+    25% {
+      background: #f3f8f2;
+    }
+    50% {
+      background: #3581B8;
+    }
+    75% {
+      background: #fcb07e;
+    }
+    100% {
+      background: #dee2d6;
+    }
+}
+  @keyframes colorchange {
+ 0% {
+      background: #e63946;
+    }
+     25% {
+      background: #f1faee;
+    }
+    50% {
+      background: #a8dadc;
+    }
+    75% {
+      background: #457b9d;
+    }
+    100% {
+      background: #1d3557;
+    }
+}
+
+#grad-bg1 {
+    height: 108px;
+    background-color: grey;/* For browsers that do not support gradients */
+    background-image: radial-gradient(#e897c5, #672af4, #ff37f8);
+}
