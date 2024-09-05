@@ -1,3 +1,6 @@
+/* *{
+  border:solid 1px black;
+} */
 
 .container {
     display: flex;
@@ -13,6 +16,12 @@
 .text {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.taskcard {
+  background-color: purple;
+  width: 70%;
+  margin: auto;
 }
 
 
